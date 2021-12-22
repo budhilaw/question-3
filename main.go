@@ -9,6 +9,7 @@ import (
 func main() {
 	s := `((halo semua (123) (123))`
 
+	fmt.Println("STRING: ", s)
 	fmt.Println("Question no. 3: ", findFirstStringInBracket(s))
 	fmt.Println("Answer: ", simpleFunction(s))
 }
